@@ -133,7 +133,7 @@ __DryIoc.MefAttributedModel__ depends on __DryIoc.Attributes__ which does two th
 _Why to separate attributes into its own assembly?_
 
 To get rid off not used functionality. For instance, you can mark types for Exports with
- __DryIoc.Attributes__ and use [DryIocZero](Companions\DryIocZero) for DI. In that case you don't need
+ __DryIoc.Attributes__ and use [DryIocZero](../Companions/DryIocZero) for DI. In that case you don't need
 __DryIoc.MefAttributedModel__ functionality at runtime. All registrations will be scanned and factory delegates 
 generated at compile-time by __DryIocZero__.
 
